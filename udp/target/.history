@@ -1,0 +1,28 @@
+compile
+run
+run 23
+run
+run 2332
+run "hi server" loaclhost 2332
+run hi loaclhost 2332
+run hi loaclhost 8080
+compile
+run 8080
+run hi loaclhost 8080
+run
+run hi loaclhost 8080
+compile
+run hi loaclhost 8080
+run hi localhost 8080
+run "hi kuzya" localhost 8080
+clean
+compile
+run
+compile
+run
+1
+run
+compile
+run
+compile
+run

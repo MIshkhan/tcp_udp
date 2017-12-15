@@ -1,0 +1,47 @@
+IPv4 32 bits
+IPv6 128 bits
+
+Transport layers(TCP and UDP) breakes datagrams of up to 64k bytes, and send them to the IP layer
+
+TCP is a connection-oriented protocol and it implements a connection as a stream of bytes from source
+to destination. ( It uses queue )
+
+While UDP is a connectionless transport protocol and uses datagrams to implement its
+communication. ( Datagrams try to crowd into the recipient as quickly as possible )  
+
+The difference between datagram and TCP connections is like the difference
+between post offices and telephones. With a telephone, you make a connection to a
+specific telephone number, if the person on the destination answers the phone, you
+two are able to talk for a certain period of time, exchanging an arbitrary amount of
+information, and then you close the connection. With a post offices, you typically
+send a letter with the destination address on the envelope. Because of errors in
+sorting, transportation and delivery and delays you cannot be certain if or when the
+person addressed receives the letter. The only way to know is to request and receive
+some kind of acknowledgement. You may retry several times if you get no
+response, then give up.
+
+On an IP network such as the Internet, the UDP (User Datagram Protocol) is used to
+transmit fixed-length datagrams.
+
+
+Datagrams advantages
+
+  Speed.
+  
+        UDP involves low overhead since there is no need to set up connections,
+        to maintain the order and correctness of the message delivery, or to tear down
+        the connections after the communication.
+
+  Message-oriented instead of stream-oriented.
+  
+        If the message to be sent is small and simple, it may be easier to simply
+        send the chunk of bytes instead of going through the steps of converting
+        it to and from streams.
+        
+
+A DatagramSocket is an interface through which DatagramPackets are transmitted.
+A DatagramPacket is simply an IP-specific wrapper for a block of data.
+DatagramSocket class is responsible for sending and receiving DatagramPacket via the UDP protocol.
+
+UDP ports are separate from TCP ports.
+Each computer has 65,536 UDP ports as well as its 65,536 TCP ports.

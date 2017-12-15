@@ -1,0 +1,9 @@
+sbt
+run all-systems.mcast.net 4000
+run mobile-agents.mcast.net 4000
+run all-routers.mcast.net 4000
+run all-systems.mcast.net 4000
+run all-routers.mcast.net 4000
+run base-address.mcast.net 4000
+run all-routers.mcast.net 1900
+run 239.255.255.250 1900

@@ -1,0 +1,2 @@
+[0m[[0m[31merror[0m] [0m[0m/run/media/ishkhan/Documents/Arch/Documents/progs/tcp-udp/udp/src/main/java/DaytimeUDPServer.java:29:1: non-static variable d cannot be referenced from a static context[0m
+[0m[[0m[31merror[0m] [0m[0m          DatagramPacket response = new DatagramPacket(d.getBytes(), data.length, request.getAddress(), request.getPort());[0m

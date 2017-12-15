@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/run/media/ishkhan/Documents/Arch/Documents/progs/tcp-udp/tcp/src/main/java/SimpleClient.java:7:1: no suitable constructor found for Socket(int)[0m
+[0m[[0m[31merror[0m] [0m[0m    constructor java.net.Socket.Socket(java.net.Proxy) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; int cannot be converted to java.net.Proxy)[0m
+[0m[[0m[31merror[0m] [0m[0m    constructor java.net.Socket.Socket(java.net.SocketImpl) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; int cannot be converted to java.net.SocketImpl)[0m
+[0m[[0m[31merror[0m] [0m[0mnew Socket(8080)[0m
+[0m[[0m[0minfo[0m] [0m[0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
